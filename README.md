@@ -1,7 +1,8 @@
 <div align="center">
   <img src="imageassets/SDLCD.ico" alt="Logo" width="256" height="256" />
+  ### The Edirol StudioCanvas Visualizer
 </div>
-###The Edirol StudioCanvas Visualizer
+
 
 ## Description
 The [SoundCanvas](https://en.wikipedia.org/wiki/Roland_Sound_Canvas) line, introduced by Roland in the early 1990s, became a popular series of MIDI sound modules known for their high-quality General MIDI and Roland GS-compatible sounds. These modules were widely used by musicians and producers for their rich sound in an era when computers couldn't handle demanding audio processing, establishing SoundCanvas as a staple in **MS-DOS** music production.
