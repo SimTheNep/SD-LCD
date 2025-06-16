@@ -21,7 +21,10 @@ The module the program looks to emulate, a 2001 **Edirol SD-90**, was heavily po
 Developed of this software started over a year ago with the goal of emulating the LCD screen and bar meters pixel-by-pixel, due to the lack of good Windows-compatible SoundCanvas LCD displays, let alone StudioCanvases.
 It's a simple Python program, based on [corrscope](https://github.com/corrscope/corrscope), with a 127x64 pixel grid and the SD-series pixelated text font. It uses tkinter and pygame to accomplish this, featuring two unique interface styles that emulate the different modes in the module's display.
 
-![The program in action](github/move.gif)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SimTheNep/SD-LCD/main/github/move.gif" width="400">
+  <p>The program in action</p>
+</div>
 
 ## Installation Guide
 
