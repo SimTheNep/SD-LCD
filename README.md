@@ -67,6 +67,12 @@ You can use the SD-LCD project in two ways: either by running the Python script 
    
     ```bash
     python SD-LCD.py
+5. (UNIX-based users) make it executable:
+
+   ```bash
+    chmod +x SD-LCD.py
+    ./SD-LCD.py
+  
 ### 2. Using the Pre-built Release
 
 1. Go to the [Releases page.](https://github.com/SimTheNep/SD-LCD/releases)
