@@ -22,8 +22,8 @@ Developed of this software started over a year ago with the goal of emulating th
 It's a simple Python program, based on [corrscope](https://github.com/corrscope/corrscope), with a 127x64 pixel grid and the SD-series pixelated text font. It uses tkinter and pygame to accomplish this, featuring two unique interface styles that emulate the different modes in the module's display.
 
 <div align="center" style="margin: 1em 0;">
-  <img src="github/sc1.png" alt="screenshot1" style="width:50%" />
-  <p>The configuration menu</p>
+  <img src="github/move.gif" alt="movegif" style="width:50%" />
+  <p>The program in actionn</p>
 </div>
 
 ## Installation Guide
@@ -104,8 +104,8 @@ For those unfamiliar with the module, it posesses five instrument sets (Special 
     </td>
     <td style="vertical-align: top; width: 50%; max-width: 50%;">
       <div style="margin-bottom: 1em;" align="center">
-        <img src="github/sc4.png" alt="screenshot4" style="width: 60%; max-width: 200px;" />
-        <p>The appearance configuration</p>
+        <img src="github/sc1.png" alt="screenshot1" style="width: 60%; max-width: 200px;" />
+        <p>The configuration<p>
       </div>
       <div style="margin-bottom: 1em;" align="center">
         <img src="github/sc2.png" alt="screenshot2" style="width: 60%; max-width: 200px;" />
