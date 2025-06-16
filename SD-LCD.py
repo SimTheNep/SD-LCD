@@ -194,7 +194,7 @@ class SD90Visualizer:
         btn_master_browse = tk.Button(left_frame, text="Browse", command=self.browse_master)
         btn_master_browse.grid(row=NUM_SLOTS + 1, column=2, sticky="w", padx=0, pady=10)
 
-        # Control Buttons - now inline in one row
+        # Control Buttons
         control_row = NUM_SLOTS + 2
         btn_master_reset = tk.Button(left_frame, text="Reset", command=self.master_reset)
         btn_master_reset.grid(row=control_row, column=1, padx=5, pady=10)
@@ -239,8 +239,6 @@ class SD90Visualizer:
         grid_chk = tk.Checkbutton(right_frame, text="Enable Grid", variable=self.grid_enabled)
         grid_chk.grid(row=4, column=0, columnspan=2, sticky="w", padx=5, pady=5)
 
-        # Image placeholders - outside appearance settings, no borders
-
         self.img1 = PhotoImage(file="imageassets/edirol.png")
         img_box1 = tk.Label(right_frame, image=self.img1)
         img_box1.grid(row=5, column=0, columnspan=2, pady=(70, 5), padx=5)
@@ -259,7 +257,7 @@ class SD90Visualizer:
 
     def validate_three_digit(self, text):
         if text == "":
-            return True  # allow clearing temporarily
+            return True  
         if len(text) > 3:
             return False
         return text.isdigit()
@@ -293,7 +291,6 @@ class SD90Visualizer:
             messagebox.showwarning("Already Running", "Rendering already in progress.")
             return
 
-        # Load all channels data from WAVs
         self.channels_data = []
         self.channels_sr = []
 
@@ -313,7 +310,7 @@ class SD90Visualizer:
                 messagebox.showerror("Error", f"Error loading {path}: {e}")
                 return
 
-        # Load master WAV (for playback sync)
+        # Load master WAV
         master_path = self.master_path.get()
         if master_path == "":
             messagebox.showerror("Error", "Please select a master WAV file.")
@@ -323,7 +320,6 @@ class SD90Visualizer:
             master_data, master_sr = sf.read(master_path)
             self.master_sr = master_sr
             self.master_len = len(master_data)
-            # Load master sound in pygame mixer
             pygame.mixer.quit()  # Re-init mixer for master sample rate
             pygame.mixer.init(frequency=master_sr, channels=2, size=-16, buffer=512)
             self.master_sound = pygame.mixer.Sound(master_path)
@@ -410,8 +406,6 @@ class SD90Visualizer:
                         self.selected_bar = (self.selected_bar + 1) % NUM_SLOTS
 
             screen.blit(bg_image, (0, 0))
-
-            # === Draw selected bar info aligned to bottom-left, pixel grid aligned ===
             sel = self.selected_bar
             label = f"A{sel+1:02}"
             patch = self.patch_vars[sel].get()
@@ -419,10 +413,8 @@ class SD90Visualizer:
             instrument = self.instrument_vars[sel].get()
             set_text = self.set_vars[sel].get()
 
-            # Text color
             text_color = BAR_COLOR_NORMAL if not self.contrast_mode.get() else BAR_COLOR_INVERT
 
-            # Render text surfaces
             label_surf = font.render(label, True, text_color)
             patch_surf = font.render(instrument, True, text_color)
             instr_surf = font.render(patch, True, text_color)
@@ -487,7 +479,6 @@ class SD90Visualizer:
                 base_x = BAR_START_X_BLOCK + i * (BAR_WIDTH_BLOCKS + BAR_SPACING_BLOCKS) + 1
                 base_y = BAR_BASELINE_Y_BLOCK - 1
 
-                # Draw upward blocks
                 for h in range(height_blocks):
                     rect = pygame.Rect(
                         base_x * BLOCK_SIZE,
@@ -496,8 +487,7 @@ class SD90Visualizer:
                         BLOCK_SIZE
                     )
                     pygame.draw.rect(screen, bar_color, rect)
-
-                # Downward extension
+                    
                 if self.bar_down_ext[i] > 0:
                     dark_color = tuple(max(c - 80, 0) for c in bar_color)
                     for h in range(self.bar_down_ext[i]):
@@ -531,8 +521,7 @@ class SD90Visualizer:
         self.render_btn.config(state="normal")
         self.stop_btn.config(state="disabled")
 
-
-    # Keyboard event handlers to move selected bar & adjust downward extension
+    # Keyboard event handlers
     def on_key_left(self, event):
         if not self.is_playing:
             return
