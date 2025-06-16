@@ -125,9 +125,9 @@ For those unfamiliar with the module, it posesses five instrument sets (Special 
 ### Psst... hey... did you know I have my own Touhou Sound Sources sheet, dedicated to documenting old ZUN music from 1999-2002? [Check it out!](https://tinyurl.com/VintageTouhouSheet)
 - [Introduction Video](<INSERT_INTRO_VIDEO_LINK_HERE>)  
 - [Demo Playlist](https://www.youtube.com/playlist?list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL)
-  - Duke Nukem 3D Theme (Edirol SD-90 Arrange)
-  - Edirol SD-90 E.Piano Demo_02
-  - Clavinet Glory (Edirol SD-90 Arrange)
-  - Counter-Strike (Edirol SD-90 Arrange)
-  - A Soul as Red as a Ground Cherry
+  - [Duke Nukem 3D Theme (Edirol SD-90 Arrange)](https://www.youtube.com/watch?v=O-5NLOah2Bw&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=1&pp=gAQBiAQBsAQB)
+  - [Edirol SD-90 E.Piano Demo_02](https://www.youtube.com/watch?v=IT7AY9aB90A&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=2&pp=gAQBiAQBsAQB)
+  - [Clavinet Glory (Edirol SD-90 Arrange)](https://www.youtube.com/watch?v=U6H33qd13nU&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=3&pp=gAQBiAQBsAQB)
+  - [Counter-Strike (Edirol SD-90 Arrange)](https://www.youtube.com/watch?v=WE8idGmtgno&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=4&pp=gAQBiAQBsAQB)
+  - [A Soul as Red as a Ground Cherry](https://www.youtube.com/watch?v=hE7tnagupBU&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=5&pp=gAQBiAQBsAQB)
 
