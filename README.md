@@ -16,7 +16,6 @@ Building on this success, Roland released the [StudioCanvas](https://en.wikipedi
 <p></p>
 
 The module the program looks to emulate, a 2001 **Edirol SD-90**, was heavily popularized for its usage in the **Touhou Project**, an old indie-game franchise by developed **ZUN**, which is what sparked the determination to finish this lenghty project.
-Psst... hey... did you know I have my own Touhou Sound Sources sheet, dedicated to documenting old ZUN music from 1999-2002? [Check it out!](tinyurl.com/VintageTouhouSheet)
 
 Development of this software started over a year ago with the goal of emulating the LCD screen and bar meters pixel-by-pixel, due to the lack of good Windows-compatible SoundCanvas LCD displays, let alone StudioCanvases.
 It's a simple Python program, based on [corrscope](https://github.com/corrscope/corrscope), with a 127x64 pixel grid and the SD-series pixelated text font. It uses tkinter and pygame to accomplish this, featuring two unique interface styles that emulate the different modes in the module's display.
@@ -119,8 +118,9 @@ For those unfamiliar with the module, it posesses five instrument sets (Special 
   </tr>
 </table>
 
-A list with all the presets and respective parameters is available [here](https://github.com/SimTheNep/SD-LCD/blob/main/patches.pdf).
+**A list with all the presets and respective parameters is available** [here](https://github.com/SimTheNep/SD-LCD/blob/main/patches.pdf).
 
 ## Demos
+### Psst... hey... did you know I have my own Touhou Sound Sources sheet, dedicated to documenting old ZUN music from 1999-2002? [Check it out!](tinyurl.com/VintageTouhouSheet)
 W.I.P...
 
