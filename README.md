@@ -10,7 +10,7 @@ Building on this success, Roland released the [StudioCanvas](https://en.wikipedi
 
 <p></p>
 <div align="center">
-  <img src="https://i.ytimg.com/vi/b3HVk0PMA1w/maxresdefault.jpg" alt="SD90" width="444" />
+  <img src="https://i.ytimg.com/vi/b3HVk0PMA1w/maxresdefault.jpg" alt="SD90" width="500" />
   <p>The first StudioCanvas module, the SD-90</p>
 </div>
 <p></p>
