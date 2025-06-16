@@ -1,6 +1,6 @@
 <div align="center">
   <img src="imageassets/SDLCD.ico" alt="Logo" width="256" height="256" />
-  ### The Edirol StudioCanvas Visualizer
+  <p>The Edirol StudioCanvas Visualizer</p>
 </div>
 
 
