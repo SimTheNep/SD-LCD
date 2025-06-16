@@ -122,7 +122,6 @@ For those unfamiliar with the module, it posesses five instrument sets (Special 
 **A list with all the presets and respective parameters is available** [here](https://github.com/SimTheNep/SD-LCD/blob/main/patches.pdf).
 
 ## Demos
-### Psst... hey... did you know I have my own Touhou Sound Sources sheet, dedicated to documenting old ZUN music from 1999-2002? [Check it out!](https://tinyurl.com/VintageTouhouSheet)
 - [Introduction Video](<INSERT_INTRO_VIDEO_LINK_HERE>)  
 - [Demo Playlist](https://www.youtube.com/playlist?list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL)
   - [Duke Nukem 3D Theme (Edirol SD-90 Arrange)](https://www.youtube.com/watch?v=O-5NLOah2Bw&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=1&pp=gAQBiAQBsAQB)
@@ -130,4 +129,6 @@ For those unfamiliar with the module, it posesses five instrument sets (Special 
   - [Clavinet Glory (Edirol SD-90 Arrange)](https://www.youtube.com/watch?v=U6H33qd13nU&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=3&pp=gAQBiAQBsAQB)
   - [Counter-Strike (Edirol SD-90 Arrange)](https://www.youtube.com/watch?v=WE8idGmtgno&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=4&pp=gAQBiAQBsAQB)
   - [A Soul as Red as a Ground Cherry](https://www.youtube.com/watch?v=hE7tnagupBU&list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL&index=5&pp=gAQBiAQBsAQB)
+ 
+### Psst... hey... did you know I have my own Touhou Sound Sources sheet, dedicated to documenting old ZUN music from 1999-2002? [Check it out!](https://tinyurl.com/VintageTouhouSheet)
 
