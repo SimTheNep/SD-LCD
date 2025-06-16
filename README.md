@@ -121,6 +121,6 @@ For those unfamiliar with the module, it posesses five instrument sets (Special 
 **A list with all the presets and respective parameters is available** [here](https://github.com/SimTheNep/SD-LCD/blob/main/patches.pdf).
 
 ## Demos
-### Psst... hey... did you know I have my own Touhou Sound Sources sheet, dedicated to documenting old ZUN music from 1999-2002? [Check it out!](tinyurl.com/VintageTouhouSheet)
+### Psst... hey... did you know I have my own Touhou Sound Sources sheet, dedicated to documenting old ZUN music from 1999-2002? [Check it out!](https://tinyurl.com/VintageTouhouSheet)
 W.I.P...
 
