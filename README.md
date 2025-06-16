@@ -21,7 +21,7 @@ Development of this software started over a year ago with the goal of emulating 
 It's a simple Python program, based on [corrscope](https://github.com/corrscope/corrscope), with a 127x64 pixel grid and the SD-series pixelated text font. It uses tkinter and pygame to accomplish this, featuring two unique interface styles that emulate the different modes in the module's display.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SimTheNep/SD-LCD/refs/heads/main/github/movegif.gif?token=GHSAT0AAAAAADFWZGIJK7AADS6OC7KRL2QC2CPSXHA" width="500">
+  <img src="https://raw.githubusercontent.com/SimTheNep/SD-LCD/refs/heads/main/github/movegif.gif?token=GHSAT0AAAAAADFWZGIJW24PWE2EEGKKHMVC2CPS6JQ" width="500">
   <p>The program in action</p>
 </div>
 
