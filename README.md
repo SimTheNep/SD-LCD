@@ -123,5 +123,11 @@ For those unfamiliar with the module, it posesses five instrument sets (Special 
 
 ## Demos
 ### Psst... hey... did you know I have my own Touhou Sound Sources sheet, dedicated to documenting old ZUN music from 1999-2002? [Check it out!](https://tinyurl.com/VintageTouhouSheet)
-W.I.P...
+- [Introduction Video](<INSERT_INTRO_VIDEO_LINK_HERE>)  
+- [Demo Playlist](https://www.youtube.com/playlist?list=PLeq2JfjJFk57W0dOlCL7uATUIGS8_PixL)
+  - Duke Nukem 3D Theme (Edirol SD-90 Arrange)
+  - Edirol SD-90 E.Piano Demo_02
+  - Clavinet Glory (Edirol SD-90 Arrange)
+  - Counter-Strike (Edirol SD-90 Arrange)
+  - A Soul as Red as a Ground Cherry
 
